@@ -25,7 +25,7 @@ from .models import FoodOrder
 
 @admin.register(FoodOrder)
 class FoodOrderAdmin(admin.ModelAdmin):
-    list_display = ('order_id', 'customer_name', 'restaurant_name', 'food_item', 'quantity', 'total_price')
+    list_display = ('order_id','customer_name','restaurant_name','food_item','quantity','total_price')
 
 ```
 ```
@@ -48,7 +48,8 @@ class FoodOrder(models.Model):
 ```
 
 # OUTPUT
-c:\Users\acer\Desktop\new\django\trial_1\ORM\Screenshot (31).png
+<img width="1920" height="1080" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/ba956d15-39b1-472f-9435-1630215a451b" />
+
 
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully.
